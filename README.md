@@ -33,3 +33,9 @@ Under the Cairo folder you can find the following two papers:
 ## Bug Bounty
 
 A successful audit doesn't gurantee that the underlying code is free of bugs. For that purpose, we started a [bug bounty](https://immunefi.com/bounty/starknet/) program for StarkNet. Currently, the bounty program focuses on the StarkNet OS and related L1 contracts that define the protocol. In the future it may be extended to cover some of the mathematical foundations described above.
+
+## License
+
+This project is licensed under the **Apache 2.0**.
+
+See [LICENSE](LICENSE) for more information.
