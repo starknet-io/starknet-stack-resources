@@ -1,16 +1,8 @@
-# starknet-security-materials
+# starknet-stack-resources
 
-A collection of works discussing the security aspects of StarkNet
+A collection of works discussing the security aspects of the StarkNet stack
 
-## Audits
-
-Under the Audits folder you can find:
-
-* [An audit](./Audits/EVM_STARK_Verifier_v4.0_Audit_Report.pdf) for StarkWare's solidity STARK verifier
-* [An audit](./Audits/Cairo%20&%20SHARP%20Verifiers.pdf) for StarkWare's solidity Cairo and the SHARP verifiers
-* [An audit](./Audits/STARK_Cairo%20Verifiers%20(in%20Cairo)%20Audit%20Report.pdf) for StarkWare's Cairo STARK/Cairo verifiers (these are used in recursive proofs)
-
-## Math
+## The STARK Protocol
 
 Under the Math folder you can find papers related to the STARK protocol. We can devide these into two categories:
 
@@ -23,6 +15,14 @@ STARK
 * [Scalable, transparent, and post-quantum secure computational integrity](./Math/STARK/Scalable%2C%20transparent%2C%20and%20post-quantum%20secure%20computational%20integrity.pdf); the original paper introducing the STARK protocol
 * [ethSTARK](./Math/STARK/ethSTARK.pdf); describes a specific construction of STARK, simillar to what is used in production (to follow closely our production system, see the STARK verifier audit by CryptoExperts)
 
+### Audits
+
+Under the Audits folder you can find:
+
+* [An audit](./Audits/EVM_STARK_Verifier_v4.0_Audit_Report.pdf) for StarkWare's solidity STARK verifier
+* [An audit](./Audits/Cairo%20&%20SHARP%20Verifiers.pdf) for StarkWare's solidity Cairo and the SHARP verifiers
+* [An audit](./Audits/STARK_Cairo%20Verifiers%20(in%20Cairo)%20Audit%20Report.pdf) for StarkWare's Cairo STARK/Cairo verifiers (these are used in recursive proofs)
+
 ## Cairo
 
 Under the Cairo folder you can find the following two papers:
@@ -32,7 +32,7 @@ Under the Cairo folder you can find the following two papers:
 
 ## Bug Bounty
 
-A successful audit doesn't gurantee that the underlying code is free of bugs. For that purpose, we started a [bug bounty](https://immunefi.com/bounty/starknet/) program for StarkNet. Currently, the bounty program focuses on the StarkNet OS and related L1 contracts that define the protocol. In the future it may be extended to cover some of the mathematical foundations described above.
+A successful audit doesn't gurantee that the underlying code is free of bugs. For that purpose, we started a [bug bounty](https://immunefi.com/bounty/starknet/) program for StarkNet. Currently, the bounty program focuses on the StarkNet OS and related L1 contracts that define the protocol. In the future it may be extended to cover some of the mathematical foundations described above. You're welcome to report issues in our [discord](https://discord.gg/qypnmzkhbc).
 
 ## License
 
