@@ -1,6 +1,6 @@
 # starknet-stack-resources
 
-A collection of works discussing the security aspects of the StarkNet stack
+A collection of works discussing the major components inside StarkNet
 
 ## The STARK Protocol
 
